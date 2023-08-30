@@ -31,6 +31,7 @@ body {
 .fa-regular {
   margin: 1px;
   transform: translateX(0);
+  transition: 0.2s;
 }
 
 .rating-container {
@@ -40,11 +41,11 @@ body {
   bottom: 20%;
 }
 
-.fas {
+.fa-star {
   color: lightgray;
   cursor: pointer; /*when hover shows a hand*/
 }
 
-.fas.active {
+.fa-star.active {
   color: gold;
 }
